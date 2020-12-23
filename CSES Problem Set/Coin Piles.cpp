@@ -11,12 +11,13 @@ int main(){
     // freopen("a_input.txt", "r", stdin);  freopen("a_output.txt", "w", stdout);
     // #endif
     boost;
-    
+
     tinput{
     	long a, b;
     	cin>>a>>b;
-    	cout << ( ( (a+b) % 3 == 0 && ( min(a, b)*2 >= max(a, b) ) ) ? "YES" : "NO" )<<endl; 
+    	cout << ( ( (a+b) % 3 == 0 && ( min(a, b)*2 >= max(a, b) ) ) ? "YES" : "NO" )<<endl;
+      // sum of a and b should be divisible by 3
     }
-    
+
     return 0;
 }
